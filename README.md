@@ -18,9 +18,9 @@
 
 ### نصب و استفاده
 1. پکیج گیت را نصب کنید (اگر قبلا نصب نکرده‌اید)
- ```bash
-   python mediabot.py
-   ```  
+```bash
+    pkg install git
+   ```
 2. دستور زیر را کپی و اجرا کنید تا مدیابات کلون شود
    ```bash
     git clone https://github.com/Sichanak/MediaBot
