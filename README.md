@@ -17,12 +17,20 @@
 - جلوگیری از پردازش مجدد فایل‌های قبلاً سازماندهی‌شده
 
 ### نصب و استفاده
-1. مسیر پیش فرض پوشه را میتوانید در فایل `mediabot.json` تغییر دهید.
-2. اسکریپت را اجرا کنید:
+1. پکیج گیت را نصب کنید (اگر قبلا نصب نکرده‌اید)
+ ```bash
+   python mediabot.py
+   ```  
+2. دستور زیر را کپی و اجرا کنید تا مدیابات کلون شود
+   ```bash
+    git clone https://github.com/Sichanak/MediaBot
+   ```
+3. مسیر پیش فرض پوشه را میتوانید در فایل `mediabot.json` تغییر دهید.
+4. اسکریپت را اجرا کنید:
    ```bash
    python mediabot.py
    ```
-3. گزینه‌های پایانی:
+ گزینه‌های پایانی اسکریپت:
    - `0`: خروج بدون انجام کاری
    - `1`: خروج + پاک‌سازی پوشه‌های خالی
    - `2`: Undo کامل تمام عملیات
@@ -56,9 +64,9 @@ python mediabot.py --dry-run
    ```bash
     git clone https://github.com/Sichanak/MediaBot
    ```
-1. You can change default directory path `mediabot.json` in file
+3. You can change default directory path `mediabot.json` in file
    but it's not necessary because while running code it will ask you again.
-3. Run the script:
+4. Run the script:
    ```bash
    python mediabot.py
    ```
