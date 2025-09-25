@@ -1,0 +1,10 @@
+{
+  "default_path": "/storage/emulated/0/Download/1dmp",
+  "video_extensions": [
+    ".mp4", ".mkv", ".avi", ".mov", ".wmv", ".flv", ".webm",
+    ".m4v", ".mpg", ".mpeg", ".mpe", ".mpv", ".vob", ".ogv", ".ogg"
+  ],
+  "subtitle_extensions": [
+    ".srt", ".ass", ".ssa", ".sub", ".vtt", ".smi", ".sbv"
+  ]
+}
