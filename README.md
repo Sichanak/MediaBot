@@ -48,12 +48,21 @@ python mediabot.py --dry-run
 - Prevents reprocessing of already organized files
 
 ### Installation & Usage
-1. You can change default directory path `mediabot.json` in file.
-2. Run the script:
+1. Install Git pkg if you didn't
+   ```bash
+    pkg install git
+   ```
+2. Run to clone MediaBot code
+   ```bash
+    git clone https://github.com/Sichanak/MediaBot
+   ```
+1. You can change default directory path `mediabot.json` in file
+   but it's not necessary because while running code it will ask you again.
+3. Run the script:
    ```bash
    python mediabot.py
    ```
-3. Final options:
+4. Final options:
    - `0`: Exit without doing anything
    - `1`: Exit and clean up empty folders
    - `2`: Undo all operations
